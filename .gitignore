@@ -1,5 +1,20 @@
+# Python cache
 __pycache__/
-*.pyc
-.env
+*.py[cod]
+
+# Virtual environments
 venv/
 .venv/
+env/
+
+# Environment variables / secrets
+.env
+.env.*
+
+# IDE / editor files
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
